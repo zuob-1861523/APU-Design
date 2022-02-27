@@ -18,7 +18,7 @@ module rdDoneTest(
     assign top = toppointer[7:0];
     
     always_comb
-        if (addr == top & top != 0 & done_previous != 1)
+        if (addr == top & top != 0 & done_previous != 1)  // done can only true for one cycle
 			done = 1'b1;
         else 
             done = 1'b0;
