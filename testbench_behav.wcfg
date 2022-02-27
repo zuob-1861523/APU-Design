@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2075001fs"></ZoomEndTime>
+      <Cursor1Time time="1905315fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="108"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/testbench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/rd_EvTID_ready" type="logic">
+      <obj_property name="ElementShortName">rd_EvTID_ready</obj_property>
+      <obj_property name="ObjectShortName">rd_EvTID_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/rd_addr" type="array">
+      <obj_property name="ElementShortName">rd_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/rd_data" type="array">
+      <obj_property name="ElementShortName">rd_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data[127:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/rd_EvTID_DONE" type="logic">
+      <obj_property name="ElementShortName">rd_EvTID_DONE</obj_property>
+      <obj_property name="ObjectShortName">rd_EvTID_DONE</obj_property>
+   </wvobject>
+   <wvobject fp_name="group56" type="group">
+      <obj_property name="label">toppointer</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/testbench/dut/toppointer/DataOut" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">DataOut[9:0]</obj_property>
+         <obj_property name="ObjectShortName">DataOut[9:0]</obj_property>
+         <obj_property name="label">toppointer out</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/toppointer/DataIn" type="array">
+         <obj_property name="ElementShortName">DataIn[9:0]</obj_property>
+         <obj_property name="ObjectShortName">DataIn[9:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group102" type="group">
+      <obj_property name="label">addr_test</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/dut/isAddr0" type="logic">
+         <obj_property name="ElementShortName">isAddr0</obj_property>
+         <obj_property name="ObjectShortName">isAddr0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/rd_addr_privous1" type="array">
+         <obj_property name="ElementShortName">rd_addr_privous1[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_addr_privous1[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/rd_addr_privous2" type="array">
+         <obj_property name="ElementShortName">rd_addr_privous2[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_addr_privous2[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/rd_addr_privous3" type="array">
+         <obj_property name="ElementShortName">rd_addr_privous3[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_addr_privous3[7:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group103" type="group">
+      <obj_property name="label">calculation data</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/testbench/dut/register1/DataOut" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">DataOut[127:0]</obj_property>
+         <obj_property name="ObjectShortName">DataOut[127:0]</obj_property>
+         <obj_property name="label">reg1dataout</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/register2/DataOut" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">DataOut[127:0]</obj_property>
+         <obj_property name="ObjectShortName">DataOut[127:0]</obj_property>
+         <obj_property name="label">reg2dataout</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/register3/DataOut" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">DataOut[127:0]</obj_property>
+         <obj_property name="ObjectShortName">DataOut[127:0]</obj_property>
+         <obj_property name="label">reg3dataout</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/testbench/dut/calc/result" type="array">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">result[127:0]</obj_property>
+         <obj_property name="ObjectShortName">result[127:0]</obj_property>
+         <obj_property name="label">calculationOut</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/testbench/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/wr_addr" type="array">
+      <obj_property name="ElementShortName">wr_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/wr_data" type="array">
+      <obj_property name="ElementShortName">wr_data[127:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data[127:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/wr_EvTID_DONE" type="logic">
+      <obj_property name="ElementShortName">wr_EvTID_DONE</obj_property>
+      <obj_property name="ObjectShortName">wr_EvTID_DONE</obj_property>
+   </wvobject>
+</wave_config>

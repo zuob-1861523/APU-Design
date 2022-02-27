@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Feb 26 17:50:02 2022
+# Process ID: 13668
+# Current directory: C:/Users/Jiang/gep-fw/Projects/APU/APU.runs/synth_1
+# Command line: vivado.exe -log simpleAPU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source simpleAPU.tcl
+# Log file: C:/Users/Jiang/gep-fw/Projects/APU/APU.runs/synth_1/simpleAPU.vds
+# Journal file: C:/Users/Jiang/gep-fw/Projects/APU/APU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source simpleAPU.tcl -notrace
