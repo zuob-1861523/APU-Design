@@ -1,2 +1,3 @@
 # APU-Design
-common git for the APU design and test bench
+
+the APU project is in master branch
