@@ -89,8 +89,10 @@ read_verilog -library xil_defaultlib -sv {
   C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/D_ff.v
   C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/D_ffs.v
   C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/Mux2_1.v
+  C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/algo_signal_ctrl.sv
   C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/calculation.v
   C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/rdDoneTest.v
+  C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/reg_in_series.sv
   C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/register_para.v
   C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/simpleAPU.v
 }

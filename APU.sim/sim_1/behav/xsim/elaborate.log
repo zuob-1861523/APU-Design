@@ -4,7 +4,7 @@ Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto d39ba446af
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'in0' [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/simpleAPU.v:58]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 128 for port 'in0' [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/simpleAPU.v:44]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
@@ -13,12 +13,12 @@ Compiling module xil_defaultlib.D_FF
 Compiling module xil_defaultlib.Mux2_1(DATA_WIDTH=8)
 Compiling module xil_defaultlib.register_para(WIDTH=8)
 Compiling module xil_defaultlib.rdDoneTest
+Compiling module xil_defaultlib.reg_in_series_default
+Compiling module xil_defaultlib.D_ffs_default
+Compiling module xil_defaultlib.algo_signal_ctrl(pipe_depth=3)
 Compiling module xil_defaultlib.Mux2_1
 Compiling module xil_defaultlib.register_para
 Compiling module xil_defaultlib.calculation
-Compiling module xil_defaultlib.Mux2_1(DATA_WIDTH=10)
-Compiling module xil_defaultlib.register_para(WIDTH=10)
-Compiling module xil_defaultlib.D_ffs_default
 Compiling module xil_defaultlib.simpleAPU
 Compiling module xil_defaultlib.testbench
 Compiling module xil_defaultlib.glbl

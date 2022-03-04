@@ -16,11 +16,15 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xcvu9p'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcvu9p'
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 31600
+INFO: [Synth 8-7075] Helper process launched with PID 6940
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1111.004 ; gain = 0.000
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1110.133 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'simpleAPU' [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/simpleAPU.v:11]
+INFO: [Synth 8-6157] synthesizing module 'algo_signal_ctrl' [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/algo_signal_ctrl.sv:1]
+	Parameter MAX_ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter OUT_ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter pipe_depth bound to: 3 - type: integer 
 INFO: [Synth 8-6157] synthesizing module 'D_FF' [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/D_ff.v:8]
 INFO: [Synth 8-6155] done synthesizing module 'D_FF' (1#1) [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/D_ff.v:8]
 INFO: [Synth 8-6157] synthesizing module 'register_para' [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/register_para.v:8]
@@ -31,29 +35,28 @@ INFO: [Synth 8-6155] done synthesizing module 'Mux2_1' (2#1) [C:/Users/Jiang/gep
 INFO: [Synth 8-6155] done synthesizing module 'register_para' (3#1) [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/register_para.v:8]
 INFO: [Synth 8-6157] synthesizing module 'rdDoneTest' [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/rdDoneTest.v:8]
 INFO: [Synth 8-6155] done synthesizing module 'rdDoneTest' (4#1) [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/rdDoneTest.v:8]
-INFO: [Synth 8-6157] synthesizing module 'Mux2_1__parameterized0' [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/Mux2_1.v:8]
-	Parameter DATA_WIDTH bound to: 128 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'Mux2_1__parameterized0' (4#1) [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/Mux2_1.v:8]
-INFO: [Synth 8-6157] synthesizing module 'register_para__parameterized0' [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/register_para.v:8]
-	Parameter WIDTH bound to: 128 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'register_para__parameterized0' (4#1) [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/register_para.v:8]
-INFO: [Synth 8-6157] synthesizing module 'calculation' [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/calculation.v:7]
-INFO: [Synth 8-6155] done synthesizing module 'calculation' (5#1) [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/calculation.v:7]
-INFO: [Synth 8-6157] synthesizing module 'register_para__parameterized1' [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/register_para.v:8]
-	Parameter WIDTH bound to: 10 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'Mux2_1__parameterized1' [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/Mux2_1.v:8]
-	Parameter DATA_WIDTH bound to: 10 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'Mux2_1__parameterized1' (5#1) [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/Mux2_1.v:8]
-INFO: [Synth 8-6155] done synthesizing module 'register_para__parameterized1' (5#1) [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/register_para.v:8]
+INFO: [Synth 8-6157] synthesizing module 'reg_in_series' [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/reg_in_series.sv:8]
+	Parameter NUM bound to: 4 - type: integer 
+	Parameter WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'reg_in_series' (5#1) [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/reg_in_series.sv:8]
 INFO: [Synth 8-6157] synthesizing module 'D_ffs' [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/D_ffs.v:8]
 	Parameter NUM bound to: 4 - type: integer 
 INFO: [Synth 8-6155] done synthesizing module 'D_ffs' (6#1) [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/D_ffs.v:8]
-INFO: [Synth 8-6155] done synthesizing module 'simpleAPU' (7#1) [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/simpleAPU.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'algo_signal_ctrl' (7#1) [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/algo_signal_ctrl.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'register_para__parameterized0' [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/register_para.v:8]
+	Parameter WIDTH bound to: 128 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Mux2_1__parameterized0' [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/Mux2_1.v:8]
+	Parameter DATA_WIDTH bound to: 128 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Mux2_1__parameterized0' (7#1) [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/Mux2_1.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'register_para__parameterized0' (7#1) [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/register_para.v:8]
+INFO: [Synth 8-6157] synthesizing module 'calculation' [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/calculation.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'calculation' (8#1) [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/calculation.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'simpleAPU' (9#1) [C:/Users/Jiang/gep-fw/Projects/APU/APU.srcs/sources_1/new/simpleAPU.v:11]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1111.004 ; gain = 0.000
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1110.133 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1111.004 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1110.133 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -61,11 +64,11 @@ Start Loading Part and Timing Information
 Loading part: xcvu9p-flga2104-2L-e
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1111.004 ; gain = 0.000
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1110.133 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xcvu9p-flga2104-2L-e
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1111.004 ; gain = 0.000
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1110.133 ; gain = 0.000
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
@@ -76,14 +79,12 @@ Detailed RTL Component Info :
 	   3 Input  128 Bit       Adders := 1     
 	   2 Input    8 Bit       Adders := 1     
 +---Registers : 
-	              128 Bit    Registers := 3     
-	               10 Bit    Registers := 1     
-	                8 Bit    Registers := 5     
-	                1 Bit    Registers := 10    
+	              128 Bit    Registers := 4     
+	                8 Bit    Registers := 6     
+	                1 Bit    Registers := 11    
 +---Muxes : 
-	   2 Input  128 Bit        Muxes := 5     
-	   2 Input   10 Bit        Muxes := 1     
-	   2 Input    8 Bit        Muxes := 2     
+	   2 Input  128 Bit        Muxes := 6     
+	   2 Input    8 Bit        Muxes := 6     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -101,20 +102,20 @@ No constraint files found.
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1810.984 ; gain = 699.980
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1833.082 ; gain = 722.949
 ---------------------------------------------------------------------------------
 No constraint files found.
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1811.852 ; gain = 700.848
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1833.082 ; gain = 722.949
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 1812.008 ; gain = 701.004
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1833.082 ; gain = 722.949
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -132,37 +133,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1812.008 ; gain = 701.004
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1833.082 ; gain = 722.949
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1812.008 ; gain = 701.004
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1833.082 ; gain = 722.949
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1812.008 ; gain = 701.004
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1833.082 ; gain = 722.949
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1812.008 ; gain = 701.004
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1833.082 ; gain = 722.949
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1812.008 ; gain = 701.004
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1833.082 ; gain = 722.949
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1812.008 ; gain = 701.004
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1833.082 ; gain = 722.949
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -180,53 +181,57 @@ Report Cell Usage:
 +------+-------+------+
 |1     |BUFG   |     1|
 |2     |CARRY8 |    16|
-|3     |LUT1   |     1|
-|4     |LUT2   |     3|
-|5     |LUT3   |   131|
-|6     |LUT4   |   134|
-|7     |LUT5   |   130|
-|8     |LUT6   |     7|
-|9     |FDRE   |   441|
-|10    |IBUF   |   131|
-|11    |OBUF   |   148|
+|3     |LUT2   |   130|
+|4     |LUT3   |   257|
+|5     |LUT4   |   133|
+|6     |LUT5   |     3|
+|7     |LUT6   |     7|
+|8     |FDRE   |   561|
+|9     |IBUF   |   131|
+|10    |OBUF   |   148|
 +------+-------+------+
 
 Report Instance Areas: 
-+------+-----------------------+--------------------------------+------+
-|      |Instance               |Module                          |Cells |
-+------+-----------------------+--------------------------------+------+
-|1     |top                    |                                |  1143|
-|2     |  calc                 |calculation                     |    18|
-|3     |  Mem_addr             |register_para                   |    21|
-|4     |  rdone                |D_FF                            |     2|
-|5     |  rdone1               |D_FF_0                          |   131|
-|6     |  register1            |register_para__parameterized0   |   128|
-|7     |  register2            |register_para__parameterized0_1 |   130|
-|8     |  register3            |register_para__parameterized0_2 |   381|
-|9     |  toppointer           |register_para__parameterized1   |    12|
-|10    |  write_done           |D_ffs                           |     3|
-|11    |    \genblk1[1].regis  |D_FF_8                          |     1|
-|12    |    \genblk1[2].regis  |D_FF_9                          |     1|
-|13    |    \genblk1[3].regis  |D_FF_10                         |     1|
-|14    |  write_enable         |D_ffs_3                         |     4|
-|15    |    \genblk1[0].regis  |D_FF_4                          |     1|
-|16    |    \genblk1[1].regis  |D_FF_5                          |     1|
-|17    |    \genblk1[2].regis  |D_FF_6                          |     1|
-|18    |    \genblk1[3].regis  |D_FF_7                          |     1|
-+------+-----------------------+--------------------------------+------+
++------+-------------------------+--------------------------------+------+
+|      |Instance                 |Module                          |Cells |
++------+-------------------------+--------------------------------+------+
+|1     |top                      |                                |  1387|
+|2     |  calc                   |calculation                     |    16|
+|3     |  ctrol_sigs             |algo_signal_ctrl                |   195|
+|4     |    Mem_addr             |register_para                   |    21|
+|5     |    rdone                |D_FF                            |     2|
+|6     |    rdone1               |D_FF_3                          |     3|
+|7     |    write_address        |reg_in_series                   |    24|
+|8     |      \genblk1[1].regA   |register_para_12                |     8|
+|9     |      \genblk1[2].regA   |register_para_13                |     8|
+|10    |      \genblk1[3].regA   |register_para_14                |     8|
+|11    |    write_done           |D_ffs                           |     3|
+|12    |      \genblk1[1].regis  |D_FF_9                          |     1|
+|13    |      \genblk1[2].regis  |D_FF_10                         |     1|
+|14    |      \genblk1[3].regis  |D_FF_11                         |     1|
+|15    |    write_enable         |D_ffs_4                         |   132|
+|16    |      \genblk1[0].regis  |D_FF_5                          |   129|
+|17    |      \genblk1[1].regis  |D_FF_6                          |     1|
+|18    |      \genblk1[2].regis  |D_FF_7                          |     1|
+|19    |      \genblk1[3].regis  |D_FF_8                          |     1|
+|20    |  register1              |register_para__parameterized0   |   129|
+|21    |  register2              |register_para__parameterized0_0 |   381|
+|22    |  register3              |register_para__parameterized0_1 |   128|
+|23    |  toppointer             |register_para__parameterized0_2 |   258|
++------+-------------------------+--------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1812.008 ; gain = 701.004
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1833.082 ; gain = 722.949
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1812.008 ; gain = 701.004
-Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1812.008 ; gain = 701.004
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1833.082 ; gain = 722.949
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1833.082 ; gain = 722.949
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1823.941 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1843.816 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 148 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1933.039 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1940.684 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 132 instances were transformed.
   BUFG => BUFGCE: 1 instance 
@@ -235,7 +240,7 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 INFO: [Common 17-83] Releasing license: Synthesis
 35 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1933.039 ; gain = 822.035
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1940.684 ; gain = 830.551
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Jiang/gep-fw/Projects/APU/APU.runs/synth_1/simpleAPU.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file simpleAPU_utilization_synth.rpt -pb simpleAPU_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Feb 26 18:11:53 2022...
+INFO: [Common 17-206] Exiting Vivado at Thu Mar  3 15:31:53 2022...
