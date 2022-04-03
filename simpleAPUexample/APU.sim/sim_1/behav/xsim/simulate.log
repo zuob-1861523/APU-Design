@@ -1,0 +1,21 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Error: Assertion violation
+Time: 0 ps  Iteration: 2  Process: /testbench/dut/Always126_5  File: C:/Users/Jiang/gep-fw/Projects/simpleAPUexample/APU.srcs/sources_1/imports/apu1/simpleAPU.sv
+Error: Assertion violation
+Time: 25 ns  Iteration: 2  Process: /testbench/dut/Always126_5  File: C:/Users/Jiang/gep-fw/Projects/simpleAPUexample/APU.srcs/sources_1/imports/apu1/simpleAPU.sv
+Error: Assertion violation
+Time: 175 ns  Iteration: 2  Process: /testbench/dut/Always126_5  File: C:/Users/Jiang/gep-fw/Projects/simpleAPUexample/APU.srcs/sources_1/imports/apu1/simpleAPU.sv
+Error: Assertion violation
+Time: 375 ns  Iteration: 2  Process: /testbench/dut/Always126_5  File: C:/Users/Jiang/gep-fw/Projects/simpleAPUexample/APU.srcs/sources_1/imports/apu1/simpleAPU.sv
+Error: Assertion violation
+Time: 475 ns  Iteration: 2  Process: /testbench/dut/Always126_5  File: C:/Users/Jiang/gep-fw/Projects/simpleAPUexample/APU.srcs/sources_1/imports/apu1/simpleAPU.sv
+Error: Assertion violation
+Time: 525 ns  Iteration: 2  Process: /testbench/dut/Always126_5  File: C:/Users/Jiang/gep-fw/Projects/simpleAPUexample/APU.srcs/sources_1/imports/apu1/simpleAPU.sv
+Error: Assertion violation
+Time: 775 ns  Iteration: 2  Process: /testbench/dut/Always126_5  File: C:/Users/Jiang/gep-fw/Projects/simpleAPUexample/APU.srcs/sources_1/imports/apu1/simpleAPU.sv
+Error: Assertion violation
+Time: 875 ns  Iteration: 2  Process: /testbench/dut/Always126_5  File: C:/Users/Jiang/gep-fw/Projects/simpleAPUexample/APU.srcs/sources_1/imports/apu1/simpleAPU.sv
+Error: Assertion violation
+Time: 925 ns  Iteration: 2  Process: /testbench/dut/Always126_5  File: C:/Users/Jiang/gep-fw/Projects/simpleAPUexample/APU.srcs/sources_1/imports/apu1/simpleAPU.sv
+$stop called at time : 1075 ns : File "C:/Users/Jiang/gep-fw/Projects/simpleAPUexample/APU.srcs/sim_1/new/testbench.v" Line 57

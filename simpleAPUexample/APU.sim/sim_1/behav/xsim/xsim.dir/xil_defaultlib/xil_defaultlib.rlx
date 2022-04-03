@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/Jiang/gep-fw/Projects/simpleAPUexample/APU.sim/sim_1/behav/xsim/glbl.v,1645932231,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/Jiang/gep-fw/Projects/simpleAPUexample/APU.srcs/sim_1/new/testbench.v,1648241017,systemVerilog,,,,testbench,,uvm,,,,,,
+C:/Users/Jiang/gep-fw/Projects/simpleAPUexample/APU.srcs/sources_1/imports/apu1/simpleAPU.sv,1648494559,systemVerilog,,C:/Users/Jiang/gep-fw/Projects/simpleAPUexample/APU.srcs/sim_1/new/testbench.v,,simpleAPU,,uvm,,,,,,
