@@ -1,7 +1,0 @@
-Running: xsim.dir/simpleAPU_behav/xsimk.exe -simmode gui -wdb simpleAPU_behav.wdb -simrunnum 0 -socket 11641
-Design successfully loaded
-Design Loading Memory Usage: 6836 KB (Peak: 6836 KB)
-Design Loading CPU Usage: 46 ms
-Simulation completed
-Simulation Memory Usage: 7708 KB (Peak: 7708 KB)
-Simulation CPU Usage: 155 ms
