@@ -1,0 +1,19 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/Jiang/Desktop/hls4mlcode/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1.v,1648402770,verilog,,C:/Users/Jiang/Desktop/hls4mlcode/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_2.v,,dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1,,uvm,,,,,,
+C:/Users/Jiang/Desktop/hls4mlcode/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_2.v,1648402770,verilog,,C:/Users/Jiang/Desktop/hls4mlcode/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s.v,,dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_2,,uvm,,,,,,
+C:/Users/Jiang/Desktop/hls4mlcode/dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s.v,1648402770,verilog,,C:/Users/Jiang/Desktop/hls4mlcode/dense_latency_ap_fixed_ap_fixed_config11_0_0_0_0_0_0.v,,dense_latency_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_s,,uvm,,,,,,
+C:/Users/Jiang/Desktop/hls4mlcode/dense_latency_ap_fixed_ap_fixed_config11_0_0_0_0_0_0.v,1648402770,verilog,,C:/Users/Jiang/Desktop/hls4mlcode/myproject.v,,dense_latency_ap_fixed_ap_fixed_config11_0_0_0_0_0_0,,uvm,,,,,,
+C:/Users/Jiang/Desktop/hls4mlcode/myproject.v,1648402770,verilog,,C:/Users/Jiang/Desktop/hls4mlcode/myproject_mul_mul_14s_18s_26_1_1.v,,myproject,,uvm,,,,,,
+C:/Users/Jiang/Desktop/hls4mlcode/myproject_mul_mul_14s_18s_26_1_1.v,1648402770,verilog,,C:/Users/Jiang/Desktop/hls4mlcode/relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config10_s.v,,myproject_mul_mul_14s_18s_26_1_1;myproject_mul_mul_14s_18s_26_1_1_DSP48_0,,uvm,,,,,,
+C:/Users/Jiang/Desktop/hls4mlcode/relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config10_s.v,1648402770,verilog,,C:/Users/Jiang/Desktop/hls4mlcode/relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config4_s.v,,relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config10_s,,uvm,,,,,,
+C:/Users/Jiang/Desktop/hls4mlcode/relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config4_s.v,1648402770,verilog,,C:/Users/Jiang/Desktop/hls4mlcode/relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config7_s.v,,relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config4_s,,uvm,,,,,,
+C:/Users/Jiang/Desktop/hls4mlcode/relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config7_s.v,1648402770,verilog,,C:/Users/Jiang/Desktop/hls4mlcode/softmax_latency_ap_fixed_ap_fixed_softmax_config13_s.v,,relu_ap_fixed_ap_fixed_16_6_5_3_0_relu_config7_s,,uvm,,,,,,
+C:/Users/Jiang/Desktop/hls4mlcode/softmax_latency_ap_fixed_ap_fixed_softmax_config13_s.v,1648402770,verilog,,C:/Users/Jiang/Desktop/hls4mlcode/softmax_latency_ap_fixed_ap_fixed_softmax_config13_s_exp_bkb.v,,softmax_latency_ap_fixed_ap_fixed_softmax_config13_s,,uvm,,,,,,
+C:/Users/Jiang/Desktop/hls4mlcode/softmax_latency_ap_fixed_ap_fixed_softmax_config13_s_exp_bkb.v,1648402770,verilog,,C:/Users/Jiang/Desktop/hls4mlcode/softmax_latency_ap_fixed_ap_fixed_softmax_config13_s_invecud.v,,softmax_latency_ap_fixed_ap_fixed_softmax_config13_s_exp_bkb;softmax_latency_ap_fixed_ap_fixed_softmax_config13_s_exp_bkb_rom,,uvm,,,,,,
+C:/Users/Jiang/Desktop/hls4mlcode/softmax_latency_ap_fixed_ap_fixed_softmax_config13_s_invecud.v,1648402770,verilog,,,,softmax_latency_ap_fixed_ap_fixed_softmax_config13_s_invecud;softmax_latency_ap_fixed_ap_fixed_softmax_config13_s_invecud_rom,,uvm,,,,,,
+C:/Users/Jiang/OneDrive/University of Washington/LAB/APU-Design/simpleAPUexample/APU.sim/sim_1/behav/xsim/glbl.v,1645932231,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/Jiang/OneDrive/University of Washington/LAB/APU-Design/simpleAPUexample/APU.srcs/sim_1/new/testbench.v,1649034304,systemVerilog,,,,testbench,,uvm,,,,,,
+C:/Users/Jiang/OneDrive/University of Washington/LAB/APU-Design/simpleAPUexample/APU.srcs/sources_1/imports/apu1/simpleAPU.sv,1649034196,systemVerilog,,C:/Users/Jiang/OneDrive/University of Washington/LAB/APU-Design/simpleAPUexample/APU.srcs/sim_1/new/testbench.v,,simpleAPU,,uvm,,,,,,
